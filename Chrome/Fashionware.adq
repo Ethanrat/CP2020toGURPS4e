@@ -1,0 +1,302 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "6d8663f1-090f-4bb0-9a5b-5e2df062f6d1",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "f0d83a2d-15ec-4c5c-a067-f6314e1bff87",
+					"type": "trait",
+					"name": "Unnatural Features (ChemSkins)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": -1
+					}
+				}
+			],
+			"name": "ChemSkins",
+			"notes": "Can be a 0 to -5 point Unnatural Feature.\n\nNegligible, 200 eb, LC4",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "38ac5d46-90a8-41fc-9446-94c96e41f970",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "334a9a2b-5ad2-4fd4-9e2b-80165e8ed145",
+					"type": "trait",
+					"name": "Unnatural Features (Light Tattoos)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "038b217a-5c2a-47c6-ba18-7111e1108cbd",
+							"type": "modifier",
+							"name": "Flourescent, requires light",
+							"cost": -10
+						}
+					],
+					"levels": 1,
+					"points_per_level": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Light Tattoos",
+			"notes": "Negligible, 1-20 eb, LC4",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "a15d0b61-24a1-46f8-b042-aa20bba2fe90",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "df180f84-56a3-45e4-be76-0562fb13dd8c",
+					"type": "trait",
+					"name": "Unnatural Features (Shift-tacts)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": -1
+					}
+				}
+			],
+			"name": "Shift-tacts",
+			"notes": "Negligible, 1-200 eb, LC4",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "4f19b86a-901a-4485-9a1f-e846bc352907",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "3531526c-f2c8-4f5a-bef6-5df68f69885d",
+					"type": "trait",
+					"name": "Accessory (Skinwatch)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "357d2628-2ac5-4c8e-b687-13c696e2f578",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "9f7803aa-d943-482a-acdf-7f226ed0d573",
+							"type": "trait",
+							"name": "Unnatural Features (Synthskins)",
+							"reference": "B22",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "909f29b0-a458-4ef9-985e-65154b099f28",
+									"type": "modifier",
+									"name": "Mitigator: switchable",
+									"cost": -10
+								}
+							],
+							"levels": 1,
+							"points_per_level": -1,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "disguise"
+									},
+									"amount": -1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "shadowing"
+									},
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"open": true,
+					"name": "Synthskins",
+					"notes": "Can be a 1-5 point Unnatural Feature.\n\nNegligible, 400 eb, LC4",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Skinwatch",
+			"notes": "50 eb, Negligible, LC4",
+			"modifiers": [
+				{
+					"id": "7bcf8512-7e93-4a12-8c6e-53e7cacd6cc5",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "c3f26846-f7e0-4ad0-a8c7-c053ae369f79",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "5ee052bf-51be-4fd6-a13a-24ded6f34a55",
+					"type": "trait",
+					"name": "Unnatural Features (Techhair)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": -1
+					}
+				}
+			],
+			"name": "Techhair",
+			"notes": "1 to -5 point Unnatural Feature, Mitigators might apply.\n\nNegligible, 600 eb, LC4",
+			"calc": {
+				"points": -1
+			}
+		}
+	]
+}

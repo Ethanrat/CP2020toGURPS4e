@@ -1,0 +1,180 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "7005b51c-00c9-4144-9a1f-03168d46f700",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "15604b4f-669e-414c-a6bf-c4160f2046fd",
+					"type": "trait",
+					"name": "Resistant",
+					"reference": "B81",
+					"notes": "3000 eb, Negligible surgery, LC4",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "e09153df-126f-4342-aa82-57ac716d2cf2",
+							"type": "modifier",
+							"name": "@Very Common: Metabolic Hazards, etc.@",
+							"reference": "B80",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "9a568306-da02-4c4c-bb9d-bbcb6fb86081",
+							"type": "modifier",
+							"name": "@Common: Poison, Sickness, etc.@",
+							"reference": "B81",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "637b70ac-3c11-4161-b2ed-81ad2c74247f",
+							"type": "modifier",
+							"name": "Disease",
+							"reference": "B81",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "75952af4-1b3b-45b0-91a2-ae7bd95606f6",
+							"type": "modifier",
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "1767cde9-0df7-474d-a2cd-d6fe0ed3b9f0",
+							"type": "modifier",
+							"name": "Immunity",
+							"reference": "B81",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "250558a8-22c4-406e-b839-fb2b81069e50",
+							"type": "modifier",
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "bb4927ba-4a2d-43e5-9e1b-824519c87eaa",
+							"type": "modifier",
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "Enhanced Antibodies",
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "29351c85-c19c-4c50-a34e-5987945bb803",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "6f7711ac-7a7d-4bb8-95b8-b0f688e0c65b",
+					"type": "trait",
+					"name": "Resistant",
+					"reference": "B81",
+					"notes": "3000 eb, Negligible surgery, LC4",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "68ff7c28-5904-467a-9db1-0ecaed68c54f",
+							"type": "modifier",
+							"name": "@Very Common: Metabolic Hazards, etc.@",
+							"reference": "B80",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "421e9772-99b6-4381-9b05-e827a93ba78f",
+							"type": "modifier",
+							"name": "Posion",
+							"reference": "B81",
+							"cost": 15,
+							"cost_type": "points"
+						},
+						{
+							"id": "593d4f07-e4de-4cd0-bf69-17293f2162da",
+							"type": "modifier",
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0de3a5d1-9173-443d-8534-7595d1691529",
+							"type": "modifier",
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "dc530727-5742-424d-82cc-a23449898282",
+							"type": "modifier",
+							"name": "Immunity",
+							"reference": "B81",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "5194c652-36a9-4ec4-b9b1-89886e3e6fef",
+							"type": "modifier",
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "121f1229-0895-4324-ad5f-01e292d82a4e",
+							"type": "modifier",
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 8
+					}
+				}
+			],
+			"name": "Toxin Binders",
+			"calc": {
+				"points": 8
+			}
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b5cc676f-f883-4d78-abcd-2b7005be3e92",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "20a3fcd2-dc84-48c2-9549-d334fcb28ed9",
+					"type": "trait",
+					"name": "Skill Bonus",
+					"tags": [
+						"Physical"
+					],
+					"base_points": 4,
+					"levels": 2,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Singing"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"name": "AudioVox",
+			"notes": "700 eb, Minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "cbaff8c1-ad90-4b1b-841e-d2ea4a782338",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				},
+				{
+					"id": "c7487cde-0cac-435a-9113-cfdd187a450f",
+					"type": "modifier",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 3
+			}
+		},
+		{
+			"id": "ef88f92f-6979-4a51-a54e-c9a5bfc985bd",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "8111e8d8-3190-4cb0-b688-756533d69b8d",
+					"type": "trait",
+					"name": "Mimicry",
+					"reference": "B68",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "f17cd80e-a966-4749-b521-99bb0fffc523",
+							"type": "modifier",
+							"name": "Voice Library",
+							"reference": "P61",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "0254dbda-2d1a-4813-9273-8cd9b25669ac",
+							"type": "modifier",
+							"name": "Can't forget, but only stores 10 voices."
+						},
+						{
+							"id": "dddf886c-1adc-4381-bc02-2e8674fdc893",
+							"type": "modifier",
+							"name": "Reliable 1",
+							"cost": 5
+						},
+						{
+							"id": "f4d09360-6e99-4d09-9108-9df908066b01",
+							"type": "modifier",
+							"name": "Uses software IQ 10"
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 8
+					}
+				}
+			],
+			"name": "Voice Synthetizer",
+			"notes": "IQ roll is made by the implant at effective IQ of 11 (reliable included)\n\n600 eb, Minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "d47a2b7f-75ca-416e-b95c-fd6e3cc49f96",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				},
+				{
+					"id": "7976b4eb-ae0a-4cfd-aaac-e86c10cb635d",
+					"type": "modifier",
+					"name": "Accessibility: Requires Neuralware",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 8
+			}
+		}
+	]
+}

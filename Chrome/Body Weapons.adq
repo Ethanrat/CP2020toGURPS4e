@@ -1,0 +1,1463 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "9d13d346-0693-4e3f-affe-7be918c075d8",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "c752bd22-0e7f-4fd1-995d-e0df6f573df8",
+					"type": "trait",
+					"name": "Natural Weapon (Big Knucks)",
+					"reference": "PY65:24",
+					"notes": "500 eb, Minor surgery, LC1",
+					"tags": [
+						"Advantages",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "323ba1d2-8dd4-448a-9e61-47504b6f80c3",
+							"type": "modifier",
+							"name": "Small piercing",
+							"reference": "PY65:24",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "6cf15247-7e12-4a49-a009-e1cd86732a76",
+							"type": "modifier",
+							"name": "Toxic",
+							"reference": "PY65:24",
+							"cost": 4,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "bc84d2a8-6b05-4399-b2d7-441301cde513",
+							"type": "modifier",
+							"name": "Burning",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ce09d1df-788b-4a48-9e84-e01ead98d771",
+							"type": "modifier",
+							"name": "Crushing",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "c219e546-a29b-47db-b5f0-0e58eb11482f",
+							"type": "modifier",
+							"name": "Piercing",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "47b0b36f-62fa-4c25-9e2d-7e22f1c6b1b0",
+							"type": "modifier",
+							"name": "Large piercing",
+							"reference": "PY65:24",
+							"cost": 6,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "47cd2e48-6cfe-4ae6-91b3-2811bf2528a7",
+							"type": "modifier",
+							"name": "Cutting",
+							"reference": "PY65:24",
+							"cost": 7,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "982835b1-a4fc-4a89-bf9d-d9bb1bc5ef1c",
+							"type": "modifier",
+							"name": "Huge piercing",
+							"reference": "PY65:24",
+							"cost": 8,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "bd0cb1c1-0391-4476-a22e-f8f493a5e4a1",
+							"type": "modifier",
+							"name": "Impaling",
+							"reference": "PY65:24",
+							"cost": 8,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f21612fc-fca6-4f81-9592-8baa159f3bd9",
+							"type": "modifier",
+							"name": "Corrosion",
+							"reference": "PY65:24",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "69f7cdf6-6f0e-489e-b057-b5df14ec9a70",
+							"type": "modifier",
+							"name": "Fatigue",
+							"reference": "PY65:24",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "1eb40f8d-4225-4c6f-8b4f-d688130d3d54",
+							"type": "modifier",
+							"name": "Destructive Parry",
+							"reference": "PY65:24",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "66d0e3e5-d69b-48f7-b76c-2666e125025a",
+							"type": "modifier",
+							"name": "Disarming",
+							"reference": "PY65:24",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "41122372-72c4-4e7a-ae7b-a5d86d17e5cc",
+							"type": "modifier",
+							"name": "Extra Damage Type",
+							"reference": "PY65:24",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "96c63f98-8a42-4593-ba5c-1908c615ac6e",
+							"type": "modifier",
+							"name": "Extra Reach ",
+							"reference": "PY65:24",
+							"notes": "20% per hex if you can only attack at maximum reach.",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "a77f8a39-b6f3-4ffd-8a0c-0267f13eda6d",
+							"type": "modifier",
+							"name": "Extra Reach",
+							"reference": "PY65:24",
+							"notes": "+50% per hex if you can attack at any reach.",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "ca0cbf93-16b8-41b7-a053-5ba34f1c6c2c",
+							"type": "modifier",
+							"name": "Extra Reach",
+							"reference": "PY65:24",
+							"notes": "+30% per hex if you can attack at any reach but need a Ready maneuver to change reach. Changing reach from C to 1 is free.",
+							"cost": 30,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "a7b72778-2a0e-42c5-adf6-5d8cbccd4142",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "PY65:24",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "d388434c-22e9-41cd-83eb-6ac624ee4438",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "PY65:24",
+							"notes": "+60% if your weapon also imposes parrying penalties like a flail.",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "9eae246e-e2f2-4dda-847f-fa285482d027",
+							"type": "modifier",
+							"name": "Good Defense +1",
+							"reference": "PY65:24",
+							"cost": 30,
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "7579635c-df06-4a3a-8001-a9a6f199d774",
+							"type": "modifier",
+							"name": "Good Defense +2",
+							"reference": "PY65:24",
+							"cost": 60,
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "ed593241-901e-465f-b028-0755a2a9785a",
+							"type": "modifier",
+							"name": "Heavy",
+							"reference": "PY65:24",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "3a41036e-5186-4f2c-8dbd-343321d058ca",
+							"type": "modifier",
+							"name": "Hidden",
+							"reference": "PY65:24",
+							"cost": 20
+						},
+						{
+							"id": "b2f7fade-7d03-4ba0-843e-4b179a5258b6",
+							"type": "modifier",
+							"name": "Increased Damage",
+							"reference": "PY65:24",
+							"cost": 30,
+							"levels": 1,
+							"disabled": true,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Punch"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "44f63c18-56fd-43f0-9b3f-250bc9f8a6fe",
+							"type": "modifier",
+							"name": "Intangible",
+							"reference": "PY65:24",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "04f52562-0ca1-45c2-b7fb-902989cc5851",
+							"type": "modifier",
+							"name": "Projected",
+							"reference": "PY65:25",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "74677e03-bc1d-4715-bd07-f67b08801be5",
+							"type": "modifier",
+							"name": "Ranged",
+							"reference": "PY65:25",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "42db2cfb-44e7-4dc4-b54e-85b7d88aeb14",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of fine quality for parrying purposes and has twice DR.",
+							"cost": 10
+						},
+						{
+							"id": "e65e8d1d-f9f5-4a87-99bd-c3f38f3a7fde",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of very fine and multiplies DR by 5.",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "34ab1322-cfc0-4956-b0bd-e65d2cfab0cc",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of utterly unbreakable.",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "7c54caac-4bb2-42e9-982d-6a4517650568",
+							"type": "modifier",
+							"name": "Swing-Capable",
+							"reference": "PY65:25",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "9306e7e8-9acf-44f2-bab8-f911236e44e8",
+							"type": "modifier",
+							"name": "Cannot Parry",
+							"reference": "PY65:25",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "666efdd4-03fb-4289-aa23-e0513db35cf7",
+							"type": "modifier",
+							"name": "Fragile",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "e698e15b-5b97-40c2-8415-613d28b33295",
+							"type": "modifier",
+							"name": "Light",
+							"reference": "PY65:25",
+							"cost": -5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "48ca0800-fed5-476c-a9c1-2b0e1f967448",
+							"type": "modifier",
+							"name": "Poor Defense",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": -2
+								}
+							]
+						},
+						{
+							"id": "b4e955ac-9f1f-4dc4-a101-0aec8c851d55",
+							"type": "modifier",
+							"name": "Reduced Damage",
+							"reference": "PY65:25",
+							"cost": -30,
+							"levels": 1,
+							"disabled": true,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Punch"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": -1
+								}
+							]
+						},
+						{
+							"id": "5359f65f-1f8f-4f7a-9e62-f93c7f1cca91",
+							"type": "modifier",
+							"name": "Single",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "526218ff-4799-4f0e-99f9-76035530c700",
+							"type": "modifier",
+							"name": "Two-Handed",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "cc14d129-0a51-4abf-a495-e3af6c073cb0",
+							"type": "modifier",
+							"name": "Unbalanced",
+							"reference": "PY65:25",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "0f823c93-7650-4b56-8272-e38a01da7ec7",
+							"type": "modifier",
+							"name": "Single",
+							"reference": "P",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "7ed08b2d-437b-4705-89f2-1ce50046f955",
+							"type": "modifier",
+							"name": "Accessibility, breaking the weapon cripples the hand",
+							"cost": -20
+						}
+					],
+					"weapons": [
+						{
+							"id": "76f3d3a6-0a14-4b3d-8bd9-7f37c974a0b8",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				}
+			],
+			"name": "Big Knucks",
+			"calc": {
+				"points": 6
+			}
+		},
+		{
+			"id": "336ef196-7701-4f3c-bb76-309203c63777",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "4155f0f0-29de-45fe-a6fb-4315c8e25454",
+					"type": "trait",
+					"name": "Extra Attack",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "959719ba-364a-41f0-b430-541377edfb05",
+							"type": "modifier",
+							"name": "Multi-Strike",
+							"reference": "P49",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "dc63633f-172c-4c5f-8772-7e2ae15daaf2",
+							"type": "modifier",
+							"name": "Single Skill",
+							"reference": "P49",
+							"notes": "@Skill@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "90b8c41d-e567-411c-be33-6f834157ebbe",
+							"type": "modifier",
+							"name": "Cybersnake only",
+							"cost": -20
+						}
+					],
+					"levels": 1,
+					"points_per_level": 25,
+					"can_level": true,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "b163941b-7479-475c-bf76-35adcb2e375a",
+					"type": "trait",
+					"name": "Striker, Impaling (Cybersnake)",
+					"reference": "B88",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "0df33de1-11c4-4d83-9b7b-03ed777b2d67",
+							"type": "modifier",
+							"name": "Cannot Parry",
+							"cost": -40
+						},
+						{
+							"id": "75e1d7f3-78f8-45ca-ae57-af1bb582cf72",
+							"type": "modifier",
+							"name": "Long, +1 SM",
+							"cost": 100
+						},
+						{
+							"id": "e42f2e56-1a0a-4511-b66c-eabc8ef28090",
+							"type": "modifier",
+							"name": "Temporary Disadvantage, Electrical",
+							"cost": -20
+						},
+						{
+							"id": "490446ca-1e36-4ecf-8f63-141cf1df44e1",
+							"type": "modifier",
+							"name": "Accessibility: Requires Neuralware Processor",
+							"cost": -5
+						}
+					],
+					"base_points": 8,
+					"weapons": [
+						{
+							"id": "4ce14a75-5266-4e65-a935-40d6d3c74389",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"modifier_per_die": 1
+							},
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"damage": "thr (+1 per die) imp"
+							}
+						}
+					],
+					"calc": {
+						"points": 11
+					}
+				}
+			],
+			"name": "Cybersnake",
+			"notes": "1200 eb, Minor surgery, LC1",
+			"calc": {
+				"points": 31
+			}
+		},
+		{
+			"id": "0174a430-bd51-42f8-8b78-d0e9091b0068",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "c6281a34-f4ca-4664-9003-b6f4b4b66670",
+					"type": "trait",
+					"name": "Claws, Talons (Hands)",
+					"reference": "B43",
+					"notes": "Only pay for hands or feet, not both",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 8,
+					"weapons": [
+						{
+							"id": "a51d8ffe-c64b-4da7-bb29-360e13043f72",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						},
+						{
+							"id": "ad8cf759-197f-4027-9e77-edd880fc5bc2",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Stab",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"calc": {
+						"points": 9
+					}
+				}
+			],
+			"name": "Rippers",
+			"notes": "400 eb, Minor surgery, LC1",
+			"modifiers": [
+				{
+					"id": "3c0fb626-d3f7-42d7-b856-71d944b503c4",
+					"type": "modifier",
+					"name": "Switchable",
+					"cost": 10
+				}
+			],
+			"calc": {
+				"points": 9
+			}
+		},
+		{
+			"id": "b206387b-228a-47bd-9b8a-b1135bc9b0de",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "63bfafd7-3f3a-49e0-a62b-67bd737cb006",
+					"type": "trait",
+					"name": "Claws, Sharp (Hands)",
+					"reference": "B42",
+					"notes": "Only pay for hands or feet, not both",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "254e1c21-fbb6-41f6-adf5-0cf456ede95a",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "Scratchers",
+			"notes": "100 eb, Negligible surgery, LC4",
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "9991c146-80fc-4bf8-a118-8b9cb6b78569",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "3d0edb54-db58-4892-86b1-87f970b36cf2",
+					"type": "trait",
+					"name": "Distinctive Features",
+					"reference": "B165",
+					"tags": [
+						"Physical",
+						"Quirk"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "9e8d7a84-adcc-4cfa-b662-850bcc213588",
+					"type": "trait",
+					"name": "Teeth, Sharp",
+					"reference": "B91",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"weapons": [
+						{
+							"id": "79c00a45-632f-413d-a800-8f8741e081e9",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				}
+			],
+			"name": "Shark Grin",
+			"notes": "200 eb, Negligible surgery, LC4",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "a7c2d96e-7035-4f6c-91e6-34f8d62e762b",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "6c7e9a5d-cc4e-4e5d-9cfc-99cf0d8144ed",
+					"type": "trait",
+					"name": "Natural Weapon (Slice n'Dice)",
+					"reference": "PY65:24",
+					"tags": [
+						"Advantages",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "e10633a0-42b0-4773-9723-2da180d52e8f",
+							"type": "modifier",
+							"name": "Small piercing",
+							"reference": "PY65:24",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "97526068-ec21-49f0-b1f1-ff6f1013ef3d",
+							"type": "modifier",
+							"name": "Toxic",
+							"reference": "PY65:24",
+							"cost": 4,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0530427c-887a-4128-86d1-b730bd40969b",
+							"type": "modifier",
+							"name": "Burning",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "59d3d1a7-6a12-4cba-bbec-7b50c013e226",
+							"type": "modifier",
+							"name": "Crushing",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "c8c87268-ec7c-45bf-8a72-47b14670fac9",
+							"type": "modifier",
+							"name": "Piercing",
+							"reference": "PY65:24",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "a2a7597e-16e9-4326-8110-9cd7df445465",
+							"type": "modifier",
+							"name": "Large piercing",
+							"reference": "PY65:24",
+							"cost": 6,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "7d2c7eaf-4c71-4c89-919e-f1ef9830d109",
+							"type": "modifier",
+							"name": "Cutting",
+							"reference": "PY65:24",
+							"cost": 7,
+							"cost_type": "points"
+						},
+						{
+							"id": "2fd02f3d-1f0c-43cf-a356-d732238961a9",
+							"type": "modifier",
+							"name": "Huge piercing",
+							"reference": "PY65:24",
+							"cost": 8,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "6a1feb1c-5344-49fd-bc86-3cb40ea0fe3e",
+							"type": "modifier",
+							"name": "Impaling",
+							"reference": "PY65:24",
+							"cost": 8,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "362fdecb-a2ba-4a92-a534-3be45f6d1751",
+							"type": "modifier",
+							"name": "Corrosion",
+							"reference": "PY65:24",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ef055c1b-fa46-4c69-a1d2-07177cee204c",
+							"type": "modifier",
+							"name": "Fatigue",
+							"reference": "PY65:24",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "fef7c050-e83a-4b27-86a3-a635bf9925f9",
+							"type": "modifier",
+							"name": "Destructive Parry",
+							"reference": "PY65:24",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "29037a3b-5312-46bd-919a-0e33da2c9e62",
+							"type": "modifier",
+							"name": "Disarming",
+							"reference": "PY65:24",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "6fe54484-b932-4092-940a-0afed90b1837",
+							"type": "modifier",
+							"name": "Extra Damage Type",
+							"reference": "PY65:24",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "28263ac7-a7ed-48ba-84d7-c6360359f5de",
+							"type": "modifier",
+							"name": "Extra Reach ",
+							"reference": "PY65:24",
+							"notes": "20% per hex if you can only attack at maximum reach.",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "cbcf0cc8-35e1-42ee-a386-7697bc5ecc3f",
+							"type": "modifier",
+							"name": "Extra Reach",
+							"reference": "PY65:24",
+							"notes": "+50% per hex if you can attack at any reach.",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "1e8e656a-f02a-49c5-af98-ca67adf403e9",
+							"type": "modifier",
+							"name": "Extra Reach",
+							"reference": "PY65:24",
+							"notes": "+30% per hex if you can attack at any reach but need a Ready maneuver to change reach. Changing reach from C to 1 is free.",
+							"cost": 30,
+							"levels": 3
+						},
+						{
+							"id": "62d57808-25c5-421f-8a82-1466be4906df",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "PY65:24",
+							"cost": 30
+						},
+						{
+							"id": "e595f4b8-7918-4927-9987-401ee7147214",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "PY65:24",
+							"notes": "+60% if your weapon also imposes parrying penalties like a flail.",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "d1a2d38b-d6ff-444e-8dbe-5c7df340cfa3",
+							"type": "modifier",
+							"name": "Good Defense +1",
+							"reference": "PY65:24",
+							"cost": 30,
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "a7cbe2ed-3a1b-4736-ba80-48727ded519f",
+							"type": "modifier",
+							"name": "Good Defense +2",
+							"reference": "PY65:24",
+							"cost": 60,
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "072f6c78-2d7e-4647-b20f-2cc27cfde825",
+							"type": "modifier",
+							"name": "Heavy",
+							"reference": "PY65:24",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "5f1f0dfc-fbe1-4546-b33a-5eabed9cfa11",
+							"type": "modifier",
+							"name": "Hidden",
+							"reference": "PY65:24",
+							"cost": 20
+						},
+						{
+							"id": "7a9f9d5b-75c2-4817-98a9-e3b765444eec",
+							"type": "modifier",
+							"name": "Increased Damage",
+							"reference": "PY65:24",
+							"cost": 60,
+							"levels": 2,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Natural Weapon (Slice'n'Dice)"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							]
+						},
+						{
+							"id": "66445663-5778-4122-b51a-a8da52f668a9",
+							"type": "modifier",
+							"name": "Intangible",
+							"reference": "PY65:24",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "8d417eeb-030d-4f48-a8b0-ccb510c01165",
+							"type": "modifier",
+							"name": "Projected",
+							"reference": "PY65:25",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "7c94ced5-79ac-4031-b55f-44644b6c3253",
+							"type": "modifier",
+							"name": "Ranged",
+							"reference": "PY65:25",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "970400f4-83dc-412d-92ce-0d75810e14b7",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of fine quality for parrying purposes and has twice DR.",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "b98aca05-f27a-456a-8c03-8d35657de025",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of very fine and multiplies DR by 5.",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "5f5a0f96-7016-4642-81f5-ec8543c179c5",
+							"type": "modifier",
+							"name": "Resilient",
+							"reference": "PY65:25",
+							"notes": "Your weapon is considered to be of utterly unbreakable.",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "17519ac9-5262-4ab6-b252-a444ed04859c",
+							"type": "modifier",
+							"name": "Swing-Capable",
+							"reference": "PY65:25",
+							"cost": 20
+						},
+						{
+							"id": "b0875cd2-434c-48be-995f-e6391516c3ce",
+							"type": "modifier",
+							"name": "Cannot Parry",
+							"reference": "PY65:25",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "f78c0493-1116-4c8f-ba97-ad13777ab72d",
+							"type": "modifier",
+							"name": "Fragile",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "0e008498-f5ec-4e32-96e8-090a91fd7f6d",
+							"type": "modifier",
+							"name": "Light",
+							"reference": "PY65:25",
+							"cost": -5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "02171f9a-6dbe-477c-b7dc-2ed3ab2cb2ad",
+							"type": "modifier",
+							"name": "Poor Defense",
+							"reference": "PY65:25",
+							"cost": -20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": -2
+								}
+							]
+						},
+						{
+							"id": "103fc599-8ad2-4f09-9e45-27153db21dc0",
+							"type": "modifier",
+							"name": "Reduced Damage",
+							"reference": "PY65:25",
+							"cost": -30,
+							"levels": 1,
+							"disabled": true,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Punch"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": -1
+								}
+							]
+						},
+						{
+							"id": "e77ff5d8-685b-4b7a-8e16-d8f28de6335c",
+							"type": "modifier",
+							"name": "Single",
+							"reference": "PY65:25",
+							"cost": -20
+						},
+						{
+							"id": "76a55a8a-a600-467c-b6d0-846018e11785",
+							"type": "modifier",
+							"name": "Two-Handed",
+							"reference": "PY65:25",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "31805da3-360c-45d5-b3ac-9359c7bc7aee",
+							"type": "modifier",
+							"name": "Unbalanced",
+							"reference": "PY65:25",
+							"cost": -30
+						},
+						{
+							"id": "d3776dbd-39e1-4971-8489-7075fe1970ff",
+							"type": "modifier",
+							"name": "Single",
+							"reference": "P",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "22c50c4d-e865-4b9c-a479-19089339e216",
+							"type": "modifier",
+							"name": "Armor Divisor (10)",
+							"cost": 200
+						}
+					],
+					"weapons": [
+						{
+							"id": "e1e72f41-c188-42ea-9fe3-c66ae52686f0",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"armor_divisor": 10,
+								"modifier_per_die": 2
+							},
+							"reach": "C,1-3*",
+							"parry": "-2U",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Whip"
+								},
+								{
+									"type": "skill",
+									"name": "Garrote"
+								}
+							],
+							"calc": {
+								"damage": "sw(10) (+2 per die) cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 36
+					}
+				}
+			],
+			"name": "Slice n'Dice",
+			"notes": "700 eb, Minor surgery, LC1",
+			"calc": {
+				"points": 36
+			}
+		},
+		{
+			"id": "3accf030-bf5a-4cc3-b9ab-9300130021ce",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "62aed619-caee-48a9-9a16-7ecfa3118a75",
+					"type": "trait",
+					"name": "Distinctive Features",
+					"reference": "B165",
+					"tags": [
+						"Physical",
+						"Quirk"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "fc03f064-601c-4e88-aa76-496eb23a597c",
+					"type": "trait",
+					"name": "Teeth, Fangs",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 2,
+					"weapons": [
+						{
+							"id": "a093bb96-daf1-4fdc-a882-3409c1917227",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"calc": {
+						"points": 2
+					}
+				}
+			],
+			"name": "Vampires",
+			"notes": "200 eb, Negligible surgery, LC4",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "d84217ff-8fbe-42b3-aa83-9ff9325f3d1b",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "8bc7579b-a2f0-4759-b1b5-5f6803e813b8",
+					"type": "trait",
+					"name": "Claws, Long Talons (Hands)",
+					"reference": "B43",
+					"notes": "Only pay for hands or feet, not both",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 11,
+					"weapons": [
+						{
+							"id": "60fc8869-8df9-476c-9c13-2e64f62e2005",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1",
+								"modifier_per_die": 1
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 (+1 per die) cut"
+							}
+						},
+						{
+							"id": "7c7e8bd1-3d9b-4803-8749-c35473120a15",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1",
+								"modifier_per_die": 1
+							},
+							"usage": "Stab",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 (+1 per die) imp"
+							}
+						}
+					],
+					"calc": {
+						"points": 13
+					}
+				}
+			],
+			"name": "Wolvers",
+			"notes": "600 eb, Minor surgery, LC1",
+			"modifiers": [
+				{
+					"id": "c3e96fbf-845f-406f-a0b8-5f96f7951a1f",
+					"type": "modifier",
+					"name": "Switchable",
+					"cost": 10
+				}
+			],
+			"calc": {
+				"points": 13
+			}
+		}
+	]
+}

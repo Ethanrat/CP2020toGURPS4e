@@ -1,0 +1,474 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "e2189118-c0e7-4684-a714-5148a934d74c",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "f89ca94a-8b8d-418f-8ef6-95e12073ce20",
+					"type": "trait",
+					"name": "Lifting ST",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "fb775fa3-cafe-4bf4-ac9c-9075951efe19",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "37767648-55e5-4ab1-bede-be1e81c2d8a2",
+							"type": "modifier",
+							"name": "Size",
+							"reference": "B15",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "6235fcf3-3515-4305-b02c-0c5be2ae1d57",
+							"type": "modifier",
+							"name": "Super-Effort",
+							"reference": "P58",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "36c81cb1-00ba-4770-b50a-aefba70735c0",
+							"type": "modifier",
+							"name": "Know Your Own Strength Variant Price",
+							"reference": "PY83:18",
+							"cost": 4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 3,
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "lifting_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 16
+					}
+				},
+				{
+					"id": "c4b8a32e-97dd-420b-b370-d14b7dfb2921",
+					"type": "trait",
+					"name": "Striking ST",
+					"reference": "B88",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "14ebf25c-1c6b-4319-a540-b755706e3ea5",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "ea8ecabe-9c7c-47de-b39f-587ceeb7adac",
+							"type": "modifier",
+							"name": "Size",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "1efd0a3c-991f-42e6-8d1e-9e44a52d0356",
+							"type": "modifier",
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "ae8f011d-784f-4c3d-82e3-e6ee29b16baa",
+							"type": "modifier",
+							"name": "One Attack Only",
+							"reference": "P79",
+							"notes": "@Attack@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "683a9225-d62e-4fd0-b293-9f1890f7e5ce",
+							"type": "modifier",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 3,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"name": "Frame Β",
+			"notes": "8000 eb, Major surgery, LC4\n\n\nIf used by a ST 10 character this makes him around 2 times as strong",
+			"modifiers": [
+				{
+					"id": "9a663ddd-4534-4e64-918d-e132eba410bd",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				},
+				{
+					"id": "06540577-6bc2-421c-bf9d-47931a06f6f4",
+					"type": "modifier",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 19
+			}
+		},
+		{
+			"id": "a9025d67-9fce-46cf-ab3c-cf9d386e4e67",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "7cb2b3b1-e1df-4c1b-9afe-c5d1525c684e",
+					"type": "trait",
+					"name": "Lifting ST",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "cb5c2f80-80a7-487f-a7a8-b6055043b260",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "03f86123-41e8-414a-a408-66f17a2d3957",
+							"type": "modifier",
+							"name": "Size",
+							"reference": "B15",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "b23e7761-6691-425d-9ae6-e9ee7662d628",
+							"type": "modifier",
+							"name": "Super-Effort",
+							"reference": "P58",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "aaedf39c-4e3a-4701-83da-75e6fe37772b",
+							"type": "modifier",
+							"name": "Know Your Own Strength Variant Price",
+							"reference": "PY83:18",
+							"cost": 4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 2,
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "lifting_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 11
+					}
+				},
+				{
+					"id": "9dedd625-6cb3-434a-8914-cacad0054e5d",
+					"type": "trait",
+					"name": "Striking ST",
+					"reference": "B88",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "1863b210-942f-43b6-8f34-3e59b5351d45",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "e0045685-7cc9-471a-bc95-72420525176e",
+							"type": "modifier",
+							"name": "Size",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "853625e0-f841-4d63-b917-90b34347d5b8",
+							"type": "modifier",
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "ceed73b1-edf1-4c7a-873b-a42b3d7e06a3",
+							"type": "modifier",
+							"name": "One Attack Only",
+							"reference": "P79",
+							"notes": "@Attack@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "2ec58908-b99d-4d69-a2a4-764c9e402a01",
+							"type": "modifier",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				}
+			],
+			"name": "Frame Σ",
+			"notes": "6000 eb, Major surgery, LC4\n\nIf used by a ST 10 character this makes him around 1.5 times as strong",
+			"modifiers": [
+				{
+					"id": "3b23e5bd-f512-4c0e-814d-c6bd7d7c7be5",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				},
+				{
+					"id": "45275d6f-2b66-4b17-ae14-4b52fdd52f27",
+					"type": "modifier",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 13
+			}
+		},
+		{
+			"id": "b088e920-8d05-4603-97b1-a5a821dd7c29",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "62b30c61-8ca6-4df9-98af-eebb6cb24a85",
+					"type": "trait",
+					"name": "Lifting ST",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "a4670659-a234-40dc-a678-8c983c967584",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "d3831602-01be-4831-9af3-dd09cb0f45d8",
+							"type": "modifier",
+							"name": "Size",
+							"reference": "B15",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "404b378e-368c-4e59-9883-c46e724a5438",
+							"type": "modifier",
+							"name": "Super-Effort",
+							"reference": "P58",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "53531600-cb11-4bce-9521-6961c56ff377",
+							"type": "modifier",
+							"name": "Know Your Own Strength Variant Price",
+							"reference": "PY83:18",
+							"cost": 4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 4,
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "lifting_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 21
+					}
+				},
+				{
+					"id": "a439e501-1bcc-4388-a35b-b4fc54b08cf6",
+					"type": "trait",
+					"name": "Striking ST",
+					"reference": "B88",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "c6bbd66a-d85d-43ab-8270-81c91e086e83",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "d3f82541-afa5-46c4-92b0-033e6bbce826",
+							"type": "modifier",
+							"name": "Size",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "06c2ecfa-d21a-46f5-a915-dd93d01ffce0",
+							"type": "modifier",
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "e8baca7b-0e76-4e63-b632-3386b97c5b10",
+							"type": "modifier",
+							"name": "One Attack Only",
+							"reference": "P79",
+							"notes": "@Attack@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "4bc13a7a-487f-4648-8d1d-d8133e1be6c0",
+							"type": "modifier",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points"
+						}
+					],
+					"levels": 4,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"name": "Frame Ω",
+			"notes": "10000 eb, Major surgery, LC4\n\n\nIf used by a ST 10 character this makes him around 2.5 times as strong",
+			"modifiers": [
+				{
+					"id": "afd21964-8a7f-47c8-bafd-ff86d84d9953",
+					"type": "modifier",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost": -20
+				},
+				{
+					"id": "9bd97ace-a897-491d-ad96-41c20e661cc8",
+					"type": "modifier",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 24
+			}
+		}
+	]
+}

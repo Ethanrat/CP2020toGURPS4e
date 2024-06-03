@@ -1,0 +1,894 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b0265570-e795-4a96-bb0a-8a3fcf314d52",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "f4c5b063-3fb5-435f-829c-9036284f5290",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "9334a1dc-d5c9-4793-850f-09b5df675bb2",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "5931e950-b118-4e61-8fe1-6086191fec03",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "c9bb3675-3ae1-4b87-85bc-0ffa4b9fa812",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "df770765-03d6-446e-a725-4bd6b0307717",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "94214d75-33f9-4df7-b269-038f5f0a2c90",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "b2d8575b-9d69-469f-9263-3072653a4b68",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "30208ba3-e590-4202-905b-16a5228277a3",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "c70a7d24-c95c-41e9-82bd-69fa1210be94",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "b146ddde-c504-4155-ab9e-8a87cd891b8f",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"levels": 4,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				}
+			],
+			"name": "Chipware Socket",
+			"notes": "The chips override your natural skill.\n\n200 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "89828e0b-530b-41f4-8ea6-ef744768ddb6",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "e7538f82-a403-4e54-bba0-89cd2591b0ab",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "400d39bb-e346-4fdd-8c92-0383605720fa",
+					"type": "modifier",
+					"name": "Preparation Required",
+					"notes": "Physical skills only, 1 day per skill level",
+					"cost": -60
+				}
+			],
+			"calc": {
+				"points": 40
+			}
+		},
+		{
+			"id": "4fab4d38-6cf7-452c-91e8-345c45493db5",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "5cebba7f-767c-4d37-a47c-6675dae42129",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "44dd0235-c15c-4504-a03e-f1764753a7ec",
+							"type": "trait",
+							"name": "AR Terminal",
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "489d6a9a-c47d-4034-a880-c8436b8512de",
+							"type": "trait",
+							"name": "Basic VR",
+							"base_points": 5,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "52bf0fbe-8c50-4b84-bdff-cd1a76f00c20",
+							"type": "trait",
+							"name": "Deep Dive",
+							"modifiers": [
+								{
+									"id": "15a23080-5535-4a4e-98ef-fb6dbb1121de",
+									"type": "modifier",
+									"name": "Limitation: Accessibility (requires Cyberdeck)"
+								}
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 7
+							}
+						}
+					],
+					"open": true,
+					"name": "Interface",
+					"reference": "P#3-21 p. 5",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					"calc": {
+						"points": 11
+					}
+				},
+				{
+					"id": "a87ca793-f57a-476e-9d95-c45f4cb67812",
+					"type": "trait",
+					"name": "Neural Jack",
+					"reference": "B91,UT217",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "e05fa7dd-3fbf-4a8f-9105-bfe60bdea34f",
+							"type": "modifier",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "1c177e9e-619f-486c-9ebe-0d576d63500c",
+							"type": "modifier",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "e99b8c49-c72e-409a-a1fc-2f3a92e7caef",
+							"type": "modifier",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f228e059-e430-4376-a834-04fba115952e",
+							"type": "modifier",
+							"name": "Reduced Range",
+							"notes": "1/10th range",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "968126cc-713a-4b84-b8c0-355136b31c1f",
+							"type": "modifier",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "c311a999-3ed9-4304-bcbf-f18dd161be32",
+							"type": "modifier",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "1991a337-e0e5-4506-b302-f7046abbe8e0",
+							"type": "modifier",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "4864c3d0-a5e1-4233-b47c-1d03689e7f3e",
+							"type": "modifier",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "c3148cc6-06c6-4928-943d-17980c06c411",
+							"type": "modifier",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80
+						},
+						{
+							"id": "4e87e260-7052-4aa3-ac81-48a30bd08112",
+							"type": "modifier",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 8
+					}
+				}
+			],
+			"name": "Interface Plugs",
+			"notes": "These are the staple of Cyberpunk culture. Usually installed in the bones of the wrist, spine or skull, they tap into major nerve trunks and interface with the neural processor to send and receive signals. The plug itself can be used to insert information and reflex \"skill chips\", or as a plug in for a set of interface cables (allowing you to directly control any device you have the proper \"link\" with). In game terms, interface plugs allow the player to directly link to many types of machines, such as cybermodems or cybervehicles.\n\nInterface plugs are quite common; many companies will even pay for their installation. Quite a few factory and construction workers now \"stud\" directly into their machines. Interface plugs are critical to people like Netrunners (who must have them to gain the speed and ability to run the Net), and Solos (who use them to operate smartguns).\n\nMost people wear their plugs on wrists for ease of use. Occasionally, a true cybertechie will mount them at the temples (a plug head), just behind the ears (called a frankensetein) or in the back of the head (a puppethead). Some cover them with inlaid silver or gold caps, others with wristwarmers. Once again, a matter of style.\n\nFor each step from AR terminal to basic VR to total VR (deep dive), apply a -2 to the skill levels of the lower-end technology’s user. Someone using a terminal interface gets a -4 in any contested rolls against one using total VR, or -2 against a basic VR user.\n\n200 eb, minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "911f21cc-ed8f-4e32-b9e0-1ff3fa09865f",
+					"type": "modifier",
+					"name": "Accessiblity (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "7494bc31-0626-44ea-867a-8237d902041c",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "5670165f-5c23-4fdb-9a72-f5b47d1cdc4d",
+					"type": "modifier",
+					"name": "Accessibility (Requires Links)",
+					"cost": -10
+				}
+			],
+			"calc": {
+				"points": 19
+			}
+		},
+		{
+			"id": "db20792f-62f6-4821-9f7a-66b4a16098e1",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "10e0f59f-86fc-4883-8cab-3a25acaaf298",
+					"type": "trait",
+					"name": "Increased Basic Speed",
+					"reference": "B17",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "speed",
+							"amount": 0,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				}
+			],
+			"name": "Kerenzikov Boosterware",
+			"notes": "Kerenzikov boosterware is always activated; the character is always reacting with a higher than normal reaction speed. Since Kerenzikov boosts responses over the natural the user must learn to readjust his or her actions to a world that appears to be moving in slow motion. Kerenzikov can be installed at two levels of augmentation. (here I gave the basic level, double it for the second level)\n\nTemporary disadvantage: Total Klutz during recovery time.\n\n500 eb/level, minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "68bad5a1-5563-4cd9-81cb-1e315a940de3",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "c416310d-9d73-4b19-85d2-881ec68c3137",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		},
+		{
+			"id": "022d0219-0e5f-4842-9523-e2bfd8f6dee0",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "188e3b19-447c-4547-9d5c-57b761236be1",
+					"type": "trait",
+					"name": "Accessory (Machine/Tech Link)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
+			"name": "Machine/Tech Link",
+			"notes": "This allows the user to interface with (and control) any autofactory or heavy machine operating from an MLINK-based control system. You can also control small machines/appliances in non-factory situations.\n\n100 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "d74ebfe7-d23c-4217-9bbd-2dff237a33b6",
+					"type": "modifier",
+					"name": "Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "1567fa6d-1787-47f8-9765-dce3609043f4",
+					"type": "modifier",
+					"name": "Accessibility (Machinery and Appliances only)",
+					"cost": -20
+				},
+				{
+					"id": "ec4f282a-e523-4828-a80d-33de5e2a7b96",
+					"type": "modifier",
+					"name": "Modifier"
+				},
+				{
+					"id": "b34f8666-68bb-4e5c-9157-1c31f70ce4f6",
+					"type": "modifier",
+					"name": "Accessibility (Requires Interface Plugs)",
+					"cost": -10
+				},
+				{
+					"id": "4426e4ca-956c-40f2-b8a6-b1daf5028e85",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "389267db-850f-42d8-b574-ad5301101378",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "0cb2cb80-a795-44f9-9df2-91f062781b1b",
+					"type": "trait",
+					"name": "Accessory (Tiny Computer (compact))",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
+			"name": "Neuralware Processor",
+			"notes": "The basic neural processor is a \"switchbox\" implanted into the lower spine, and is used to route signals from external cyberwear to the central nervous system. It is the main system for any type of neural interface, including reflex boosters, interface plugs, weapon, DataTerm and vehicle links, mini-computers and sensory augmentations. The Neural processor has a small inspection space which allows secondary co-processors to be inserted into the basic processor module. This makes upgrading a process of opening the inspection space in a sterile environment and inserting the new co-processors.\n\nThis is a REQUIREMENT for most cybernetics.\n\n1000 eb, minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "efafee58-677c-47da-9f1c-27b23d0e5837",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "27299e74-084d-4d65-af3f-479bd2a09dc1",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "57cb4fa7-47a1-4e37-b988-ce92c4905a8b",
+					"type": "trait",
+					"name": "Acute Taste \u0026 Smell",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "taste_smell",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				}
+			],
+			"name": "Olfactory Boost",
+			"notes": "This increases any Perception roll involving smell or taste.\nTakes one ready action to turn on and off.\n\n100 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "56269779-f1f4-40fe-a338-e975f17650e1",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "32b31eeb-500f-4b43-bef8-c27a502c519f",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "a52dd661-5290-4b8c-b258-31f38f1134ce",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "840f3b6b-4287-45bd-a5a2-3c1e2c2d6a28",
+					"type": "trait",
+					"name": "High Pain Threshold",
+					"reference": "B59",
+					"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 8
+					}
+				}
+			],
+			"name": "Pain Editor",
+			"notes": "This coprocessor overrides the pain receptors of the brain, making the subject much less receptive to torture, deprivation or physical hardship.\n\n200 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "7bf629e0-0480-4eab-9c01-0c3d52db3f74",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "95c0a998-8950-4059-a047-619d1f5609fd",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 8
+			}
+		},
+		{
+			"id": "e778a32d-3819-4ca3-9512-aabbecf3946c",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "5d698a86-82b0-4637-90f7-af2eb76df818",
+					"type": "trait",
+					"name": "Enhanced Dodge",
+					"reference": "B51",
+					"notes": "At base level, this trait grants you +1 to your Dodge score. For each level thereafter, the previous bonus is multiplied by the new level, e.g.: at level 2, it's +2, at level 3, it's +6, and so on. Level is equal to the level of the Increased Time Rate trait or the Sandevistan trait as a whole.",
+					"levels": 4,
+					"can_level": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "9863ca44-29c0-4ce7-9ac1-3f823f7f1fe1",
+					"type": "trait",
+					"name": "Increased Time Rate (Modified)",
+					"reference": "B38-39",
+					"notes": "Your rate of time perception is faster than that of a normal human. The first level of this advantage lets you experience time twice as fast as normal --- that is, you experience two subjective seconds for each real second that passes --- and each level past that multiplies that ratio by the level: level 3 is three times as fast as level 2, level 4 is four times as fast as level 3, and so on.\n\nMechanically, each level lets you take one additional maneuver on your turn in combat. This advantage affects how fast you can do things, but doesn't increase your reaction time if it isn't activated.",
+					"base_points": 100,
+					"levels": 4,
+					"points_per_level": 100,
+					"can_level": true,
+					"calc": {
+						"points": 100
+					}
+				}
+			],
+			"name": "Sandevistan Speedware",
+			"notes": "Lasts 15 seconds\nSpeedware (also known as Sandevistan) kicks in only when desired, eliminating much of the need to adapt one's entire life to an inhumanly fast reaction time. The character must first subvocalize a mental command word before boost is activated, then wait one turn before the boost kicks in. (In game terms, you must take a ready action to activate). He will remain boosted for 15 seconds before the boost cuts out. He must then subvocalize the command again, and wait 6 seconds before regaining a boosted state. Speedware's big advantages are in lower mental impact and improved performance; because the body isn't \"on\" all the time, more can be drawn from it during the boost mode.\n\n1600 eb, minor surgery, LC4",
+			"modifiers": [
+				{
+					"id": "c143bb6c-fdcf-47dd-a03c-2f9eff707b41",
+					"type": "modifier",
+					"name": "Limitation: Takes Recharge (5 seconds)",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "6bf6a032-5169-426f-b3e8-66d7b9206751",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "994d8b3c-750e-4c76-bcc7-d28669fe269f",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "cc7e5ff2-5fc3-41ad-b769-12c68674081c",
+					"type": "modifier",
+					"name": "Takes Extra Time: 1 Concentrate maneuver",
+					"cost": -10
+				},
+				{
+					"id": "f9750b08-f0fd-4a01-9b31-625ac90ea02a",
+					"type": "modifier",
+					"name": "Maximum Duration: 15 Seconds with inability to activate again for 6 seconds",
+					"cost": -60
+				}
+			],
+			"calc": {
+				"points": 100
+			}
+		},
+		{
+			"id": "395c962a-13f3-44e3-9191-16aebd570139",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "8342a2c0-29b4-4d6e-84f8-c83ff225e504",
+					"type": "trait",
+					"name": "Accessory (Smartgun Link)",
+					"reference": "B100",
+					"notes": "Enables Smartguns",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
+			"name": "Smartgun Link",
+			"notes": "Smartguns are modified versions of normal firearms, linked to an internal microcomputer, which in turn is jacked to a human operator. A smartgun uses a small sonic or laser projector to lock onto the target, scanning it thousands of times per second. As the gun traverses the desired target, the computer link picks up your mental fire signal (or incoming data from the targeting reticule of your cyberoptic) and triggers the gun.\n\n100 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "4b8f1ef8-76e8-438b-8bce-dc333e620319",
+					"type": "modifier",
+					"name": "Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "b95a481c-f378-4c5c-9769-85d887a078fc",
+					"type": "modifier",
+					"name": "Accessibility (Smartguns only)",
+					"cost": -30
+				},
+				{
+					"id": "e0a1a7ba-6805-4716-a0bd-69e59675b348",
+					"type": "modifier",
+					"name": "Accessibility (Requires Interface Plugs)",
+					"cost": -10
+				},
+				{
+					"id": "b93a928b-c5be-46f5-aa66-f5e7c7c09314",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "13fe96b5-d93e-42f2-b748-b7d2583a319b",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "9564b7c0-2c39-49a2-afa6-6f8d9de1a535",
+					"type": "trait",
+					"name": "Acute Touch",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "touch",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				}
+			],
+			"name": "Tactile boost",
+			"notes": "Can be turned on and off\nIncreases any touch based Perception roll, takes ready action to turn on or off.\n\n100 eb/level up to +3, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "6b282cdb-f3bf-40fe-8bb4-77d8dbbffac4",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "f17f079b-a1ca-42fa-aef4-a5862bd0adfe",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				}
+			],
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "7b4dc1e9-f169-4a31-85ba-422221ef02bb",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "69d01f3d-c62e-45ac-ad42-31f13638196d",
+					"type": "trait",
+					"name": "Accessory (Vehicle Link)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "4c0ae5e7-9073-4672-b9ff-25e9cbd66ddd",
+					"type": "trait",
+					"name": "Skill Bonus",
+					"notes": "Gives a +2 bonus to any Driving, Piloting and Boating skill, counts as equipment modifier",
+					"tags": [
+						"Physical"
+					],
+					"base_points": 6,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Driving"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Piloting"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Boating"
+							},
+							"amount": 2
+						}
+					],
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"name": "Vehicle Link",
+			"notes": "This allows the user to control a vehicle through direct mental control. Cybervehicles include cars, AV-4s, aircraft, rotorcraft or motorcycles which have had their normal control systems replaced by a computer. The character plugs directly into the computer using interface plugs and cables, sending commands through his own nervous system. Power servos then steer wheels, depress accelerators, and control braking. Cybervehicles are inhumanly responsive - like driving an extension of yourself. As a result, a cyberassisted vehicle will give you a bonus on any driving, piloting and boating skill.\n\n100 eb, Negligible surgery, LC4",
+			"modifiers": [
+				{
+					"id": "56985280-e8ed-40a9-ad6d-ae8fcf38e0d0",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "3ba02f4f-e4ae-477f-abda-4824b983d0f7",
+					"type": "modifier",
+					"name": "Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "1544ef52-03fc-4399-ae9a-7b1eeb35afbc",
+					"type": "modifier",
+					"name": "Accessibility (Cybervehicles Only)",
+					"cost": -25
+				},
+				{
+					"id": "576eee00-5d8a-4037-b676-147436be5523",
+					"type": "modifier",
+					"name": "Accessibility (Requires Interface Plugs)",
+					"cost": -10
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		}
+	]
+}
